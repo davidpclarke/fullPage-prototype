@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+<div id="fullpage">
+    <div class="section" id="section1">
+        <h2>A tunnel</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu tellus sodales, ornare tellus at, adipiscing dui. Donec sit amet tincidunt tellus, sed aliquet quam. Donec eleifend elit ut egestas dictum. Vestibulum imperdiet ligula lectus, sed dictum lorem condimentum auctor. </p>
+    </div>
+    <div class="section" id="section2">
+        <h2>A girl</h2>
+        <p>Donec at justo dapibus purus placerat venenatis sed non diam. Sed magna dolor, imperdiet a porta vitae, eleifend vel nisi.</p>
+    </div>
+    <div class="section" id="section3">
+        <div class="slide" id="slide1">
+            <h2>Bubbles</h2>
+            <p>Cras at ipsum mollis, semper urna nec, tincidunt orci. Duis molestie bibendum lorem interdum volutpat. Suspendisse turpis enim, fermentum non dictum nec, dapibus ornare est. Proin interdum arcu eu ante luctus scelerisque. Pellentesque sed enim lacinia, malesuada erat sit amet, tempor purus.</p>
+        </div>
+        <div class="slide" id="slide2">
+            <h2>Mountains</h2>
+            <p>Pellentesque nec orci pulvinar, aliquet nisl sed, convallis purus. Praesent consequat ligula mi, in lacinia justo venenatis vel.</p>
+        </div>
+        <div class="slide" id="slide3">
+            <h2>Some trees</h2>
+            <p>Nullam blandit tincidunt mi sit amet laoreet. Praesent lobortis, nulla sit amet porttitor dapibus, magna ipsum scelerisque dui, id sodales ipsum urna vel dolor.</p>
+        </div>
+    </div>
+    <div class="section" id="section4">
+        <h2>A field</h2>
+        <p>Nam congue quam vel feugiat iaculis. Aliquam sem risus, dapibus eget lorem quis, eleifend consequat augue. Morbi ut augue ipsum. Etiam placerat metus felis, a laoreet lacus consectetur sit amet.</p>
+    </div>
+</div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+<!-- This following line is needed in case of using the default easing option or when using another
+ one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer -->
+<script src="js/vendor/jquery.easings.min.js"></script>
+<!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
+<script type="text/javascript" src="js/vendor/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="js/vendor/jquery.fullPage.js"></script>
+
+<script>
+$(document).ready(function() {
+    $('#fullpage').fullpage();
+});
+</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
