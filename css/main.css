@@ -100,7 +100,8 @@ textarea {
 h2 {
     font-size: 60px;
     color: #ffffff;
-    width: 600px;
+    width: calc(100% - 150px);
+    max-width: 600px;
     margin: auto;
     font-family: 'Raleway', sans-serif;
     text-shadow: 1px 1px #333333;
@@ -109,7 +110,8 @@ h2 {
 p {
     font-size: 16px;
     color: #ffffff;
-    width: 600px;
+    width: calc(100% - 150px);
+    max-width: 600px;
     margin: auto;    
     text-shadow: 1px 1px #333333;
 }
